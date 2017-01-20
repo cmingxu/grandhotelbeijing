@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="author" content="tian guang,tianguang@east.net" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>竹园厅--北京贵宾楼饭店</title>
+<meta name="keywords" content="五星级饭店,北京贵宾楼饭店" />
+<meta name="description" content="北京贵宾楼饭店是最具地理位置优势的北京五星级酒店。地处市中心，紧邻天安门广场和故宫，步行几分钟可至。酒店共有217间客房和套间，可通过在线预订或电话预定。" />
+<link rel="stylesheet" type="text/css" href="../theme/css/base.css" />
+<link rel="stylesheet" type="text/css" href="../theme/css/common.css" />
+<link rel="stylesheet" type="text/css" href="../theme/css/page.css" />
+<script language="javascript" src="../theme/js/jquery-1.7.1.min.js"></script>
+<script language="javascript" src="../theme/js/subNav.js"></script>
+<script language="javascript" type="text/javascript" src="../theme/js/script60.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.mainNav').subNav({
+			speed:100,
+			slide:true,
+			hover:true,
+			current:"meet"
+	});
+	var height = document.body.scrollHeight-361;
+	$("#mm1").css("height",height+"px");
+	$("#mm2").css("height",height-"92"+"px");
+   $("ul.subNav li").each(function(index){
+	if($(this).attr("id")=="c_35"){
+	   $(this).addClass("over");
+      }
+   });
+ //调用组图
+  var imgs = "Uploads/image/20140603141009_dxm3.jpg";
+	if(imgs!=""){
+		$("#focpic").attr("src","/"+imgs.split('|')[0]);
+		if(imgs.indexOf("|")>=0){
+			var imgArr = imgs.split('|');
+			for(var i=0;i<imgArr.length;i++){
+				$("tr[tag=imgs]").append('<td width="150" align="center" valign="top"><div onmouseover="changeImg(\'/'+imgArr[i]+'\')"><a href="list-35.html"><img alt="" src="http://www.grandhotelbeijing.com/'+imgArr[i]+'" class="img" ></a></div></td>');
+			}
+		}
+	}else{
+                $("#focpic").attr("src",'http://www.grandhotelbeijing.com/theme/images/default.jpg');   
+	}
+  // 组图结束
+  //调左侧
+  var str = $(".tl").text()
+  var len = str.length;
+  switch(len){
+	case 2:
+	$(".tl").html("<label>"+str+"</label>");
+	break;
+	case 3:
+	$(".tl").html("<label>"+str+"</label>");
+	break;
+	case 4:
+	var row1 = str.substring(0,2);
+	var row2 = str.substring(2,len);
+	$(".tl").html("<b>"+row1+"</b><em>"+row2+"</em>");
+	break;
+	case 5:
+	var row1 = str.substring(0,2);
+	var row2 = str.substring(2,len);
+	$(".tl").html("<b>"+row1+"</b><em>"+row2+"</em>");
+	break;
+	case 6:
+	var row1 = str.substring(0,3);
+	var row2 = str.substring(3,len);
+	$(".tl").html("<b>"+row1+"</b><em>"+row2+"</em>");
+	break;
+   }
+   $(".tl").html($(".tl").html().replace("宴会/","")); 
+});
+function changeImg(str){
+	$("#focpic").attr("src",str);
+}
+</script>
+<body>
+<div id="warp">
+  <!--Header Begin-->
+  <div class="header">
+  <!--头部 begin-->
+  <div  class="head">
+    <h1 class="logo"><a href="../index.html"><img src="../theme/images/logo.jpg" alt="北京贵宾楼饭店" title="北京贵宾楼饭店"/></a></h1>
+    <div class="head_right"><img src="../theme/images/sc.jpg" border="0" usemap="#Map" />
+      <map name="Map" id="Map">
+        <area shape="rect" coords="3,-2,67,11" href="list-35.html#" alt="收藏首页"  onClick="javascript:try{window.external.addFavorite('http://'+location.hostname+(location.port!=''?':':'')+location.port,'http://zepengny.tj.east.net/');}catch(e){alert('加入收藏失败，请使用Ctrl+D进行添加')}"
+/>
+        <area shape="rect" coords="71,-2,121,11" href="list-55.html"  alt="中文" />
+        <area shape="rect" coords="126,-5,195,11" href="http://en.grandhotelbeijing.com/earticle/list-56.html" alt="ENGLISH" />
+      </map>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <!--头部 end-->
+  <div class="menu"><div class="sn"></div>
+    <ul class="mainNav">
+      <li class="home"><a href="../index.html">首页</a></li>
+      <li class="about"><a href="list-1.html">关于贵宾楼</a>
+      </li>
+      <li class="room"><a href="list-2.html">客房与套房</a>
+      </li>
+      <li class="dine"><a href="list-3.html">餐饮设施</a>
+      </li>
+      <li class="meet"><a href="list-4.html">会议/宴会/娱乐</a>
+      </li>
+      <li class="offer"><a href="list-5.html">优惠休息</a>
+      </li>
+    </ul>
+  </div>
+</div>
+  <!--Header End-->
+  <div class="clear"></div>
+  <!--index_banner Begin-->
+  <!--内页主体内容开始-->
+  <div class="zq-main">
+    <!--左侧二级导航开始-->
+    <div class="zq-mleft" id="mm1"> <img src="../theme/images/left_meet.png" width="248" height="62" />
+      <div class="left_c" id="mm2">
+        <ul class="subNav">
+              <li id="c_31"><a href="list-31.html"  id="c_31">紫金厅</a></li>
+              <li id="c_32"><a href="list-32.html"  id="c_32">王府厅</a></li>
+              <li id="c_33"><a href="list-33.html"  id="c_33">花园大厅</a></li>
+              <li id="c_35"><a href="list-35.html"  id="c_35">竹园厅</a></li>
+              <li id="c_36"><a href="list-36.html"  id="c_36">玉兰厅</a></li>
+              <li id="c_38"><a href="list-38.html"  id="c_38">婚宴</a></li>
+              <li id="c_39"><a href="list-39.html"  id="c_39">健身中心</a></li>
+        </ul>
+      </div>
+      <div class="left_bottom"></div>
+    </div>
+    <!--左侧二级导航结束-->
+    <!--右侧内容开始-->
+    <div class="zq-mr class">
+      <!--公司新闻 begin-->
+      <div class="main_view">
+        <div class="position"><span>当前位置：<a href="../index.html">首页</a>><a href="list-4.html">会议/宴会/娱乐</a>><a href="list-35.html"><strong>竹园厅</strong></a></span></div>
+        <!--新闻列表展示 begin-->
+        <!--新闻列表展示 begin-->
+        <div class="news_info">
+          <h3 class="tl">竹园厅</h3>
+          <div class="fpic">
+            <div class="bigimg"><a id="foclnk" href="list-35.html"><img id="focpic" style="visibility: visible;"></a></div>
+            <!--滚动图开始-->
+            <div  class="MainTable">
+              <div id="marquee" class="show">
+                <div id="marquee_bg">
+                  <div id="marquee_left" onmouseover="javascript: Left(); "></div>
+                  <div id="marquee_middle">
+                    <div id="marquee_run">
+                      <table  border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td id="lk1"><table border="0" cellspacing="2" cellpadding="0">
+                                <tbody><input type="hidden" name="marquee_type" id="marquee_type" value="left">
+                                  <tr tag="imgs">
+                                  </tr>
+                                </tbody>
+                              </table></td>
+                            <td id="lk2"><table border="0" cellspacing="2" cellpadding="0">
+                                <tbody> <input type="hidden" name="marquee_type" id="marquee_type" value="left">
+                                  <tr> 
+                                  </tr>
+                                </tbody>
+                              </table></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div id="marquee_right" onmouseover="javascript: Right();"></div>
+                </div>
+              </div>
+              <script>
+			var sh;
+			//preLeft=0; currentLeft=0; stopscroll=false; getlimit=0;preTop=0; currentTop=0;
+			var marquee_type = document.getElementById("marquee_type").value;
+			var lk1 = document.getElementById("lk1");
+			var lk2 = document.getElementById("lk2");
+			var marquee_run = document.getElementById("marquee_run");
+			var speed = 30;
+			function StopScroll()
+			{
+				//stopscroll = true;
+				clearInterval( sh );
+			}
+			function scrollLeft()
+			{
+				StopScroll();
+				marquee_type = "left";
+				lk2.innerHTML = lk1.innerHTML;
+				function Marquee(){
+					if(lk2.offsetWidth - marquee_run.scrollLeft <= 0)
+						marquee_run.scrollLeft -= lk1.offsetWidth;
+					else{
+						marquee_run.scrollLeft ++;
+					}
+				}
+				sh = setInterval(Marquee,speed);
+			}
+			function scrollRight()
+			{
+				StopScroll();
+				marquee_type = "right";
+				//lk2.innerHTML = lk1.innerHTML;
+				marquee_run.scrollRight = marquee_run.scrollWidth;
+				function Marquee2(){
+					if(marquee_run.scrollLeft <= 0)
+						marquee_run.scrollLeft += lk1.offsetWidth;
+					else{
+						marquee_run.scrollLeft --;
+					}
+				}
+				sh = setInterval(Marquee2,speed);
+			}
+			function Left()
+			{
+				//stopscroll = false;
+				scrollLeft();
+			}
+			function Right()
+			{
+				//stopscroll = false;
+				scrollRight();
+			}
+			marquee_run.onmouseover=function() {StopScroll();}
+			marquee_run.onmouseout=function() {
+				if(marquee_type == "left"){
+					Left();
+				}else if(marquee_type == "right"){
+					//sh = setInterval(scrollRight,speed)
+					Right();
+				}
+			}
+			</script>
+            </div>
+          </div>
+ <div class="clear"></div>
+          <div class="details"> <p class="MsoNormal" align="left" style="text-indent:18pt;">
+	<span style="font-size:14px;">清风墨韵竹生香</span><span lang="EN-US"><br />
+<span style="font-size:14px;">&nbsp; &nbsp; &nbsp;&nbsp;</span></span><span style="font-size:14px;">竹，以高洁著称，传说中百鸟之王凤凰即以嫩竹为食。中国古代温文而雅的君子都以竹的气节自诩，竹亦代表谦逊的美德。北京贵宾楼饭店独立精巧的竹园厅有四季墨竹图，为当代书法家启功先生的墨宝，气韵纵横，价值连城。四季墨竹图共四幅，墨分五色，浓淡相间，分别代表了春、夏、秋、冬回环往复中延绵不绝的生机。此外，厅内花梨木嵌云母面圆桌的四周有一圈竹节形餐椅属于典型明代家具；挂落、柱子、围栏都是手工雕刻的竹节，手绘的竹叶和葡萄纹样。这样的装饰手法仅见于故宫御花园内降云轩、恭王府花园以及大观园内的潇湘馆。</span><span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal" align="left" style="text-indent:18pt;">
+	<span style="font-size:14px;">&nbsp;</span> 
+</p>
+<p class="MsoNormal" align="left">
+	<span style="font-size:14px;">面积</span><span lang="EN-US"><span style="font-size:14px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><st1:chmetcnv unitname="平方米" sourcevalue="54" hasspace="False" negative="False" numbertype="1" tcsc="0" w:st="on"><span style="font-size:14px;">54</span><span lang="EN-US" style="font-size:14px;"><span lang="EN-US" style="font-size:14px;">平方米</span></span></st1:chmetcnv><o:p></o:p></span> 
+</p>
+<p class="MsoNormal" align="left">
+	<span style="font-size:14px;">长度</span><span lang="EN-US"><span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><st1:chmetcnv unitname="米" sourcevalue="7.6" hasspace="False" negative="False" numbertype="1" tcsc="0" w:st="on"><span style="font-size:14px;">7.6</span><span lang="EN-US" style="font-size:14px;"><span lang="EN-US" style="font-size:14px;">米</span></span></st1:chmetcnv><o:p></o:p></span> 
+</p>
+<p class="MsoNormal" align="left">
+	<span style="font-size:14px;">宽度</span><span lang="EN-US"><span style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><st1:chmetcnv unitname="米" sourcevalue="7.1" hasspace="False" negative="False" numbertype="1" tcsc="0" w:st="on"><span style="font-size:14px;">7.1</span><span lang="EN-US" style="font-size:14px;"><span lang="EN-US" style="font-size:14px;">米</span></span></st1:chmetcnv><o:p></o:p></span> 
+</p>
+<p class="MsoNormal" align="left">
+	<span style="font-size:14px;">高度</span><span lang="EN-US"><span style="font-size:14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><st1:chmetcnv unitname="米" sourcevalue="3.7" hasspace="False" negative="False" numbertype="1" tcsc="0" w:st="on"><span style="font-size:14px;">3.7</span><span lang="EN-US" style="font-size:14px;"><span lang="EN-US" style="font-size:14px;">米</span></span></st1:chmetcnv><o:p></o:p></span> 
+</p>
+<p class="MsoNormal" align="left">
+	<span style="font-size:14px;">酒会</span><span lang="EN-US" style="font-size:14px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30</span><span style="font-size:14px;">人</span><span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal" align="left">
+	<span style="font-size:14px;">中西式宴会</span><span lang="EN-US" style="font-size:14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;15</span><span style="font-size:14px;">人</span><span lang="EN-US"><o:p></o:p></span> 
+</p>
+<p class="MsoNormal" align="left">
+	<span style="font-size:14px;">&nbsp;</span> 
+</p> </div>
+        </div>
+        <!--新闻列表展示示结束-->
+      </div>
+      <!--公司新闻 end-->
+    </div>
+    <div class="clear"></div>
+    <!--右侧内容结束-->
+    <div class="sub"></div>
+   <a href="https://www.chinaonline.net.cn/index.aspx?Action=New&ChainCode=COL&HotelCode=GRDBJ&Language=C&HomePage=http://www.grandhotelbeijing.com" target="_blank"> 
+<div class="order">
+</div>
+</a>
+  </div>
+  <!--内页主体内容结束-->
+  <!--index_page_body End-->
+  <div class="clear"></div>
+  <!--index_footer Begin-->
+  <div class="index_footer">
+    <div class="footer">
+      <div class="foot"> 京ICP备11045117号  | 北京东长安街35号 | 版权所有</div>
+      <div class="foot1"> 
+        <a href="../Article/list-43.html">精英招聘</a>
+        <a href="../Article/list-44.html">商务合作</a>
+        <a href="../Article/list-47.html">建议留言</a>
+        <a href="../Article/list-53.html">微博微信</a>
+      </div>
+    </div>
+  </div>
+  <!--index_footer End-->
+</div>
+</body>
+</html>
+<!-- Copyright East.net(China)Co.,Ltd. All Rights Reserved. Author Tian Guang -->

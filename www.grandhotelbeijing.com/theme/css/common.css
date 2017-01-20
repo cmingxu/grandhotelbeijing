@@ -1,0 +1,83 @@
+﻿@charset "utf-8";
+/* CSS Document 
+   Design by www.east.net
+
+   注意事项:
+   css样式以类别选择器为主
+   层次结构要清晰,级别深度控制在三层以内
+   样式命名规则为小写,可结合"_"使用
+   浏览器兼容规则  火狐(默认)-->ie7(以*开头)-->ie6(以_开头)
+*/
+body { background: url(../images/bg.jpg) center top no-repeat #f3f3f3; margin:0; padding:0;font-family: "宋体",Arial, Helvetica, sans-serif; }
+.clear { diplay: block!important; float: none!important; clear: both; overflow: hidden; width: auto!important; height: 0!important; margin: 0 auto!important; padding: 0!important; font-size: 0; line-height: 0; }
+#warp { margin:0 auto; width:100%; height:auto; }
+
+/* 首页头部样式 */
+.header {margin:0 auto;z-index:9999; width:100%; height:274px}
+.head{width:1049px;height:98px; margin:0 auto; position:relative;padding-top:96px;}
+h1.logo { float:left; width:598px; text-align:right}
+.head_right { float:right; width:270px; height:37px; padding-top:35px; text-align:right; margin-right:80px; font-family:  Times, serif;font-size:14px; font-weight:bold}
+.head_right .collect a{ color:#414141; padding-left:22px;}
+
+
+/* 导航菜单 */
+.menu { width:1039px; height:61px; margin:0 auto; position:relative;background:url(../images/nav/menu.jpg) 0 0 no-repeat;z-index:999 }
+ul.mainNav { width:651px; height:26px; margin:0 auto;padding-top:10px; }
+ul.mainNav li { position:relative;float:left; width:112px; height:26px; float:left;z-index:99999 }
+ul.mainNav li a { float:left; display:block; width:100%; height:100%; text-indent:-9999px; }
+ul.mainNav li ul { background:#f4f5eb; width:160px; display:none; position:absolute; top:26px; left:0; z-index:9999; margin:0; padding:0 0; }
+ul.mainNav li ul li { background:#f4f5eb;width:160px; height:32px; line-height:32px; border-bottom:1px solid #d3d3d3;z-index:9999;}
+ul.mainNav li ul li a {  background:#f4f5eb;font-size:14px; text-indent:0; color:#556270; font-weight:bold;text-align:center;}
+ul.mainNav li ul li a:hover { font-weight:bold; color:#9e3b04;}
+
+
+ul.mainNav li.home { background:url(../images/nav/nav_01.png) 0 0 no-repeat; width:58px; } 
+ul.mainNav li.about { background:url(../images/nav/nav_02.png) 0 0 no-repeat; width:126px; } 
+ul.mainNav li.room{ background:url(../images/nav/nav_03.png) 0 0 no-repeat; width:122px; } 
+ul.mainNav li.dine{ background:url(../images/nav/nav_04.png) 0 0 no-repeat; width:106px; } 
+ul.mainNav li.meet{ background:url(../images/nav/nav_05.png) 0 0 no-repeat; width:153px; } 
+ul.mainNav li.offer{ background:url(../images/nav/nav_06.png) no-repeat; width:86px; } 
+
+ul.mainNav li.activeNav, ul.mainNav li.current { background-position:left bottom; }
+
+.sn{background:url(../images/sn.png) no-repeat;width:205px;height:178px;position:absolute; top:-45px; left:0;z-index:9999}
+
+/* 首页页脚样式 */
+.index_footer { width:100%;min-width:1049px;padding:25px 0; color:#999999; background:#e1e1e1;font-size:12px; margin:26px auto 0 auto; clear:both; overflow:hidden; }
+.index_footer .footer { width:905px; padding:0 10px; margin:0 auto; overflow:hidden}
+
+/* 首页页脚样式-版权 */
+.index_footer .foot { color:#5f5f5f;line-height:19px;margin:0 auto; float:left; width:400px;}
+.index_footer .foot a { color:#5f5f5f; }
+
+.index_footer .foot1 { color:#00347e;line-height:19px;width:384px; margin:0 0 0 0; float:right; background:url(../images/foot.gif) no-repeat; padding:0 8px;}
+
+.index_footer .foot1 a{ color:#ffffff; background:url(../images/icon/i2.gif) 0 center no-repeat; padding: 0 0 0 12px; margin:0 10px 0 0}
+
+/* 子页左侧菜单导航 */
+.zq-mleft{ float:left; width:248px; padding:3px; background:url(../images/leftbg.gif);}
+ul.subNav { margin:0 auto; padding:5px 0 0 0; width:211px; }
+ul.subNav li { width:211px; margin:0 0 0px 0; padding:0; }
+ul.subNav li a {width:159px; line-height:40px; padding:0 0 0 52px; background: url(../images/icon/i3.gif) 16px 20px no-repeat; display:block; color:#556270; font-family:"微软雅黑"; font-size:14px; font-weight:bold; border-bottom:1px dotted #556270;}
+ul.subNav li.hover,
+ul.subNav li.over { color:#9e3b04;}
+
+ul.subNav li.over a { background: url(../images/icon/i4.gif) 16px 20px no-repeat;color:#9e3b04 ;border-bottom:1px dotted #9e3b04;}
+ul.subNav li a:hover { background: url(../images/icon/i4.gif) 16px 20px no-repeat;color:#9e3b04;border-bottom:1px dotted #9e3b04;}
+ul.subNav li ul { display:none; width:152px; padding:5px 0 0px 0; }
+ul.subNav li ul li { margin:0; padding:0; line-height:30px; }
+ul.subNav li ul li a,
+ul.subNav li.over ul li a{ height:26px; margin:0; padding:0; width:127px; padding:0 0 0 25px; color:#828282; font-size:12px; }
+ul.subNav li ul li a:hover { color:#9e3b04 }
+ul.subNav li ul li a:hover,
+ul.subNav li.over ul li a:hover,
+ul.subNav li.over ul li a.over,
+ul.subNav li ul li a.over { background:url(http://www.grandhotelbeijing.com/theme/images/mlbg2.gif) no-repeat; }
+
+.left_c{ border-left:3px solid #ffffff;border-right:3px solid #ffffff;}
+
+.left_bottom{ background:url(../images/left_bottom.png) no-repeat; width:249px; height:30px;}
+
+/* 分页 */
+.pages { margin:30px auto 0px auto; text-align:center; clear:both; overflow:hidden; color:#999999; }
+.pages a { color:#999999; }

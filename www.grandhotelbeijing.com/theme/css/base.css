@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+/* ---------清空默认样式----------- */
+html, body, div, a, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, blockquote, fieldset { margin:0px; padding:0px; font-family:"微软雅黑"; }
+img { border:0 none; vertical-align: top; }
+ul, ol, li { list-style-type: none; }
+body, input, select, button, textarea { font-size: 12px; }
+h1, h2, h3, h4, p, span, label, del, a, strong, em, li, dt, dd { white-space:normal; word-wrap:break-word; /*word-break:break-all; */}
+table, tr, th, td { border: 0 none; border-collapse:collapse; border-spacing:0; }
+fieldset { border:0 none; }
+button { cursor: pointer; }
+i, em, cite, address { font-style: normal; }
+a, a:link { text-decoration:none; cursor: pointer; border:0; }
+a:visited {  text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+a:focus { outline: none; }
+a{ blr:expression(this.onFocus=this.blur()); /* IE Opera */ outline:none; /* FF Opera */ } a:focus{ -moz-outline-style: none; /* FF */ } 

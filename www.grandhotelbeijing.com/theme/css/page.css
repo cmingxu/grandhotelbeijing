@@ -1,0 +1,142 @@
+﻿/* CSS Document */
+.blank10{ height:10px; line-height:10px;clear:both; overflow:hidden;}
+#wrap{ width:1080px; margin:0 auto;}
+
+/*网站主体部分*/
+.zq-main{ width:997px; background:#ffffff; display:block; margin:0 auto; padding:9px; position:relative; min-height:540px;}
+
+.sub{ background:url(../images/sub.jpg); width:180px; height:583px; position:absolute; left:-180px; bottom:0px;}
+.order{ background:url(../images/order.gif); width:32px; height:139px; position:absolute; right:-32px; top:0px;}
+
+/*栏目位置*/
+.position{ background:url(../images/r_title.png) no-repeat; width:728px; height:89px; text-align:right; line-height:40px;}
+.position span{ background:url(../images/icon/i5.gif) left center no-repeat; padding-left:15px; padding-right:20px;}
+.position span a{ line-height:100px; color:#040000; padding:0 4px;}
+.position span strong{ color:#9e3b04}
+
+/*右侧内容2*/
+.zq-mr{ float:right; width:728px; padding:0 0 0 0; display: block;}
+
+/*公司简介*/
+.main_view{ overflow:hidden; margin-bottom:10px;}
+.about_title{ background:url(http://www.grandhotelbeijing.com/theme/images/about_title.jpg) no-repeat; width:670px; height:76px;}
+.main_view .more{ float:right; padding:45px 5px 0 0; font-size:13px;font-family:"微软雅黑";color:#343434}
+.main_view .more a{ color:#343434}
+.info{font-size:13px;font-family:"微软雅黑"; line-height:24px; color:#343434; padding:25px 5px 0 5px; overflow:hidden}
+
+
+
+/* 首页产品中心 */
+.class{background:url(../images/classbg.jpg) #ffffff left top no-repeat;min-height:241px;}
+.tl{background:url(../images/tl.png)  no-repeat; color:#ffffff;font-size:14px;padding:16px 11px;display:block;width:42px;height:32px;line-height:18px;text-align:center;margin:20px;}
+.tl b,.tl span{display:block;text-align:center}
+.tl label{display:block;padding-top:8px;}
+
+
+#demo {overflow:hidden;width: 602px;margin-left: 41px;}
+#listBox{width:800%;}
+
+
+.bigimg{ height:325px; width:680px;margin:0 auto;}
+#marquee{width: 680px;margin:0 auto;background: #72050E;}
+#marquee_bg{padding:0px; margin:0px; border:0px;}
+#marquee_left{float: left; width: 20px; cursor: pointer;padding:10px 10px 10px 10px;}
+#marquee_right{float: left; width: 20px; cursor: pointer;padding:10px 10px 10px 5px;}
+#marquee_middle{float: left; width: 580px !important;padding:7px 10px 7px 5px;}
+#marquee_middle{float: left; width: 602px !important;padding:7px 10px 7px 5px;}
+
+#marquee_run{width: 100% !important;  overflow: hidden; cursor: pointer;}
+#marquee_table{width: 100%; color:#4f7d33}
+#marquee_table a{color:#4f7d33}
+#marquee_table a:hover{color:#ff9966}
+#marquee_table td{text-align: center; vertical-align: middle;}
+#focpic{width:670px;height:285px;border:4px solid #f4f5eb;}
+
+#marquee_left{background:url(../images/prevBtn.png) 0 25px no-repeat;width:10px;height:65px;top:355px;cursor:pointer;}
+#marquee_right{background:url(../images/nextBtn.png) 0 25px no-repeat;width:10px;height:65px;top:355px;cursor:pointer;}
+
+#marquee_run img{width:150px;height:85px;border:2px solid #e1d3b3;margin:0 5px;}
+#marquee_run img:hover{width:150px;height:85px;border:2px solid #f4f5eb;}
+
+
+/*焦点图*/
+.mod18{width:680px;height:430px;margin:20px auto;position:relative;}
+.mod18 .btn{position:absolute;width:23px;height:45px;top:355px;cursor:pointer;z-index:99;font-size:50px;font-weight:bold;}
+.mod18 .prev{left:0;background:url(../images/prevBtn.png) no-repeat;}
+.mod18 #prevTop,.mod18 #nextTop{top:213px;width:46px;height:48px;}
+.mod18 #prevTop{background:none;}
+.mod18 #nextTop{background:none;}
+.mod18 .next{right:0;background:url(../images/nextBtn.png) no-repeat;}
+.mod18 li{float:left;}
+.mod18 .cf li{position:relative;color:#fff;}
+.mod18 .cf a{display:block;width:680px;height:330px;position:absolute;color:#fff;}
+.mod18 .cf li span{display:block;}
+.mod18 .picBox{height:295px;position:relative;overflow:hidden;background:#ffffff}
+.mod18 .picBox ul{height:295px;position:absolute;}
+.mod18 .picBox li{width:670px;height:285px;border:4px solid #f4f5eb;}
+
+.mod18 .picBox img{width:670px;height:285px;}
+
+.mod18 .thumb{margin-top:40px;}
+
+.mod18 .listBox{width:627px;height:80px;margin:0 auto;position:relative;padding:6px 0 10px;overflow:hidden;}
+.mod18 .listBox ul{}
+.mod18 .listBox li{width:157px;height:89px;cursor:pointer;position:relative;}
+.mod18 .listBox li i{display:none;}
+.mod18 .listBox li a{display:block;width:154px;height:89px;}
+.mod18 .listBox li img{width:150px;height:85px;border:2px solid #e1d3b3}
+.mod18 .listBox .on img{width:150px;height:85px;border:2px solid #f4f5eb;}
+.mod18 .listBox .on i{display:block;}
+
+
+/*新闻列表*/
+ul.news_list { width:99%; margin:0 0 0 0; clear:both; overflow:hidden; background:url(../images/nbg.jpg) right 0 no-repeat }
+ul.news_list li { overflow:hidden; line-height:18px; padding:12px 0; border-bottom:1px dotted #dddddd;}
+ul.news_list li a{ font-family:"宋体"}
+ul.news_list li a.probg{float:left;display:block; padding: 0 0 0 5px; height:75px; }
+ul.news_list li img {  width:102px; height:70px;margin:0 15px 0 0; padding:2px; border:1px solid #dadada;}
+ul.news_list li h3 { float:right; color:#323232;font-size:14px; width:582px; padding:0 10px 2px 0; }
+ul.news_list li h3 span{ float:right; font-weight:normal; font-size:12px; font-family:Arial, Helvetica, sans-serif}
+ul.news_list li p { color:#828282;ont-size:12px; float:right; width:582px; padding:0 10px 0 0 }
+
+
+/*新闻态详细内容页 */
+.news_info h3.title { text-align:center;color:#9e3b04; font-size:14px; font-weight:normal; height:20px; padding:20px 0 0 0;  }
+.news_info .time {color:#727272; font-size:12px; width:80%; line-height:38px; margin:0 auto; overflow:hidden; border-bottom:1px #ececec solid; text-align:center }
+.details { color:#6e6e6e; line-height:28px; padding:15px 25px 30px 25px;font-size:14px;}
+
+.details img{max-width:100%;height:auto;}
+
+/*文字列表*/
+.wz{ background:url(../images/wz_bg.jpg) #ffffff right bottom no-repeat;}
+ul.wz_list { width:96%; margin:20px 0 0 20px; clear:both; overflow:hidden;}
+ul.wz_list li { overflow:hidden; line-height:32px; padding:0 0 0 22px; border-bottom:1px dotted #dddddd; background: url(../images/icon/i4.gif) 10px 11px no-repeat;}
+ul.wz_list li a{ font-family:"宋体"; color:#6e6e6e;}
+
+/*尊贵客人*/
+.cm{ background:url(../images/cm_bg.jpg) #ffffff top right no-repeat;}
+
+.cm_list{ margin:20px 0;overflow: hidden;}
+.cm_list li{ float:left; position:relative; width:293px; margin:10px 30px;}
+.cm_list li img{ width:250px; height:181px;}
+.cm_list li .cm1{ background:url(../images/pbg.png) no-repeat; padding:12px 20px; width:250px; height:190px; display:block;}
+.cm_list li .cm2{ background:url(../images/pbg1.png) 0 center no-repeat;width:250px; height:181px; position:absolute; left:20px; top:12px; display:block}
+.cm_list li .cm3{ background:url(../images/pbg2.png) center 0 no-repeat;display:block; width:200px; padding-left:45px;line-height:31px; color:#000000; font-size:16px;}
+
+/* 上下页 */
+.shangxiaye { height:57px; line-height:28px; padding:15px 0 0 5px; }
+.shangxiaye a { color:#097acf; }
+
+.nullshuju { margin:110px auto 0 auto; background:url(http://www.grandhotelbeijing.com/theme/images/nullshuju.png) no-repeat; width:200px; height:110px; }
+.nullshuju span { display:block; margin:40px 0 0 90px; color:#097ace; font-family:"宋体"; font-size:14px; }
+
+
+/*留言*/
+.refer{ margin:0 auto 0 auto;font-size:14px;}
+.refer td{padding:15px 0}
+.refer label{ width:45px; text-align:right; float:left; padding:0 10px 0 0; line-height:35px;}
+.refer .text1{ width:260px;color:#6e6e6e;background:#f4f5eb;padding:0px 5px;border:1px solid #e1d3b3;line-height:35px;height:35px;font-size:14px; }
+.refer img{vertical-align:middle;}
+.refer a{color:#6e6e6e}
+.refer .textarea{ width:606px;color:#6e6e6e;background:#f4f5eb;padding:0px 5px;border:1px solid #e1d3b3;line-height:24px;height:150px;font-size:14px;}
+.refer .btn{ background:#f4f5eb; font:16px/30px bold "微软雅黑"; border:none;width:130px; height:37px; margin:8px 30px 0 0; text-align:center; display:block; color:#9e3b04;}
